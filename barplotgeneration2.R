@@ -64,4 +64,3 @@ c<- ggplot(data3) +
 
 ggarrange(a,b,c,ncol=3, nrow=1, labels="AUTO")
 
-ggsave("MDAbarplot3.png",plot = last_plot(), width=8, height=4, device="png", path = "C:/Users/iatkinson/Documents/!_Placement Research/Plots",  dpi = 900)
